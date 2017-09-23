@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+body {
+	font-family: 'Roboto';
+}
+ul {
+	list-style: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+.top-line {
+	height: 40px;
+	background: grey;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	padding: 0 50px;
+}
+	.title {
+
+	}
+	.address {
+		font-style: normal;
+	}
+	
+	.two-top-block {
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 22px;	
+		padding:  10px 50px;
+		background: url('../img/setka2.png');
+		border-bottom: 2px solid grey;
+	}
+
+	.two-block-logo {
+		width: 100px;
+	}
+
+	.top-menu {
+
+	}
+		.top-menu ul {
+			display: flex;
+			justify-content: space-around;
+
+
+		}
+		.top-menu ul li{
+			padding: 5px 15px 10px 15px;
+		}
+		.top-menu ul li a:hover{
+			border-bottom: 2px solid grey;
+			padding-bottom: 15px;
+		}
+
+	.order-bell, .room-order  {
+		padding: 10px 25px;
+		background: #FBD34B;
+		border-radius: 25px;
+		box-shadow: 0 0 5px 0;	
+	}.order-bell:hover, .room-order:hover { cursor: pointer; color: #fff; transition: ease 0.5s; }
+	
+
+header {
+	height: 900px;
+	background: url('../img/bg2.jpg');
+	position: relative;	
+}
+
+	.main-title {
+		color: #F2F3F4;
+		font-size: 44px;
+		position: absolute;
+		top: 200px;
+		left: 70px;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 20px;
+		padding: 20px;
+		border: 1px solid #F2F3F4;
+	}
+
+	.order-bell-block {
+		width: 400px;
+		height: 500px;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 20px;
+		position: absolute;
+		top: 50px;
+		color: #F2F3F4;
+		right: 100px;
+	}
+
+	.order-bell-block-title {
+		color: #F2F3F4;
+		border-bottom: 1px solid #F2F3F4;
+		font-size: 24px;
+		text-align: center;
+		padding: 20px 0 20px 0;
+	}
+	
+	.order-bell-wrap {
+		padding: 20px 30px;
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.order-bell-wrap div {
+		padding: 10px 0;
+	}
+	
+	input[type="text"]{
+		height: 30px;
+		width: 100%;
+		font-size: 22px;
+		padding: 2px 5px;
+		border: none;
+		outline: none;
+		background: #F2F3F4;
+		margin-bottom: 20px;
+	}
+
+	.order-bell-wrap button {
+		padding: 5px;
+		height: 50px;
+		border: none;
+		outline: none;
+		width: 100%;
+		background: #DEB30A;
+		color: #F2F3F4;
+		font-size: 24px;
+	}
+	.order-bell-wrap button:hover {
+		cursor: pointer;
+	}
+
+	
+	.shanyrak-cool {
+		text-align: center;
+		padding: 30px 0 0 10px;
+		font-size: 26px;
+		border-bottom: 1px solid grey;
+	}.shanyrak-cool div {
+		padding-bottom: 20px
+	}
+	.shanyrak-cool-title {
+		display: inline-block;
+	    position: relative;
+		font-weight: bold;
+	    line-height: 47px;
+	    text-transform: uppercase;
+	    color: rgb(216, 216, 216);
+	    font-size: 47px;
+	    margin-bottom: 0;
+	}
+	.shanyrak-cool-title span {
+		color: rgb(251, 211, 75);
+	}
+
+	.advantages {
+		padding: 20px 0;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		 	
+	}
+
+	
+	.advantages-block {
+		width: 150px;
+		text-align: center;
+	}
+
+	.rooms-wrap {
+		background: url('../img/bg3.png');
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding-top: 100px;
+	}
+
+	.room-block {
+		width: 30%;
+		text-align: center;
+		border: 1px solid grey;
+		background: url('../img/setka2.png');
+		border-bottom-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		padding-bottom: 10px;
+	}
+
+	.room-title {
+		padding: 20px;
+		color: green;
+		font-size: 32px;
+	}
+
+	.room-img {
+		
+	}
+
+	.room-price {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.room-price span {
+		font-weight: bold;
+	}
+
+	.room-description {
+		text-align: left;
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.room-order {
+		width: 80%;
+		height: 50px;
+		background: #FBD34B;
+		font-size: 26px;
+		outline: none;
+		border: none;
+		border-radius: 30px;
+	}
+
+	.room-premium {
+		clear: both;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 50px 50px;
+	}
+	.premium {
+		width: 30%;
+		padding: 5px 0 0 80px;
+	}
+	.premium-one h3{
+		background: url('../img/p1.png') no-repeat;
+		padding: 15px 0 30px 80px;
+		
+	}
+	.premium-two h3{
+		background: url('../img/p2.png') no-repeat;
+		padding: 10px 0 40px 80px;
+	}
+
+	.premium-three h3{
+		background: url('../img/p3.png') no-repeat;
+		padding: 10px 0 40px 100px;
+	}
+
+	.cool-examples {
+		background: url('../img/examplebg.png') no-repeat;
+		background-size: cover;
+		padding: 100px 90px 0 120px;
+		color: #fff;
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.examples-main-title {
+		padding: 0 0 50px 0;
+		text-transform: uppercase;
+	}
+	.e-mt-s {
+		color: #DEB30A;
+		font-size: 38px;
+	}
+
+	.example {
+		width: 30%;
+		height: 400px;
+	}	
+
+	.example-img {
+		display: inline-block;
+		border-radius: 50%;
+		width: 120px;
+		height: 120px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.e-i-one {
+		background: url('../img/e2.png') no-repeat center center #fff;
+	}
+	.e-i-two {
+		background: url('../img/e1.png') no-repeat center center #fff;
+	}
+	.e-i-three {
+		background: url('../img/e3.png') no-repeat center center #fff;
+	}
+	.e-i-four {
+		background: url('../img/e4.png') no-repeat center center #fff;
+	}
+	.e-i-five {
+		background: url('../img/e5.png') no-repeat center center #fff;
+	}
+	.e-i-six {
+		background: url('../img/e6.png') no-repeat center center #fff;
+	}
+	
+
+
+	.example-title {
+		font-size: 26px;	
+		padding-bottom: 10px;	
+	}
+
+	.example-description {
+		text-align: left;
+		color: #D0DCE8;
+	}
+		.example-description span{
+			font-size: 18px;
+			color: #D0DCE8
+		}
+
+	.bonuses-wrap {
+		padding: 20px 100px 20px 0;
+		background: url('../img/map.png');
+	}
+
+	.bonuses-main-title {
+		text-align: right;
+		padding-top: 20px;
+	}	
+	.bonuses {
+		padding: 50px 50px;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;	
+	}
+		.bonus {
+			width: 27%;
+			padding-left: 20px;
+		}
+		bomus-img {
+			
+		}
+		.bonus-title {
+			text-align: center;
+			padding: 5px;
+			font-size: 22px;
+		}
+
+		.comments {
+			padding: 0px 0 0 50px;
+			overflow: hidden;
+			background: url('../img/setka2.png');
+		}
+		.comments h1 {
+			padding: 50px;
+			text-align: center;
+		}
+		.comment {
+			width: 100%;
+			overflow: hidden;
+			margin-bottom: 60px;
+			border-bottom: 1px solid grey;
+			border-top: 1px solid grey;
+		}
+		.comment-img {
+			display: inline-block;
+			width: 20%;
+			height: 100%;
+			padding-right: 20px;
+		}
+		.comment-text {
+			display: inline-block;
+			width: 60%;
+			font-size: 22px;
+		}
+		.comment-text h3 {
+			display: inline-block;
+			padding-bottom: 17px;
+		}
+		.comment-author {
+			text-align: right;
+			font-weight: bold;
+		}
+
+		.map {
+			position: relative;
+		}
+
+		.contacts {
+			position: absolute;
+			top: 50px;
+			right: 100px;
+			width: 350px;
+			border-radius: 30px;
+			height: 450px;
+			background: #fff;
+			font-size: 22px;
+			padding: 20px;
+			text-align: center;
+			z-index: 999;
+		}
+		
+		.contacts h3 {
+			padding: 10px;
+		}
+		.contacts p {
+			padding: 5px;
+		}
